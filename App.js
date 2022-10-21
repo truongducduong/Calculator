@@ -15,14 +15,11 @@ export default function App() {
       <View style={Theme === 'light' ? styles.container : [styles.container, { backgroundColor: '#000' }]}>
         
         <StatusBar style="auto" />
-        <Switch
-          value={Theme === 'dark'}
-          onValueChange={() => setTheme(Theme === 'dark' ? 'light' : 'dark')} />
+        
         <MyKeyboard />
         
       </View>
 
-      
     </Themecontext.Provider>
 
   );
@@ -37,10 +34,9 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-  Text: {
-    flex:1,
-    color: 'green',
-    justifyContent: 'flex-end',
+  Button: {
+    color: 'light',
+    justifyContent: 'flex-start',
     fontSize: 20
   },
 
