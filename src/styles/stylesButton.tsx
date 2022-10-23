@@ -58,14 +58,14 @@ export const Style = StyleSheet.create({
     bottom: 50,
   },
   screen1: {
-    fontSize: 96,
-    color: MyColor.gray,
+    fontSize: 70,
+    color: MyColor.dark,
     fontWeight: '200',
     alignSelf: 'flex-end',
   },
   screen2: {
-    fontSize: 40,
-    color: MyColor.gray,
+    fontSize: 50,
+    color: MyColor.dark,
     fontWeight: '200',
     alignSelf: 'flex-end',
   }

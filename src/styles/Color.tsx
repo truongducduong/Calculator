@@ -6,6 +6,6 @@ export const MyColor = {
     yellow: '#e8df2c',
     green: '#2ce82c',
     gray: '#5c615c',
-    result: '#0c44ed'
+    result: '#000000'
 
 }

@@ -16,16 +16,16 @@ export default function Button({ title, onPress, isBlue, isGray }: ButtonProps) 
     const Theme = useContext(Themecontext);
     return (
         <TouchableOpacity
-            style={
-                isBlue
-                    ? Style.Lblue
-                    : isGray
-                        ? Style.Lgray
-                        : Theme === 'light'
-                            ? Style.Llight
-                            : Style.LDark
-            }
-            onPress={onPress}>
+        style={
+            isBlue
+                ? Style.Lblue
+                : isGray
+                    ? Style.Lgray
+                    : Theme === 'light'
+                        ? Style.Llight
+                        : Style.LDark
+        }
+        onPress={onPress}>
 
 
             <Text
